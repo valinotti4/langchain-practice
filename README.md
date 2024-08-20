@@ -30,4 +30,8 @@ Repo developed in a [Langchain crash course](https://www.youtube.com/watch?v=yF9
 
 ## How to use
 
-`python3 <filepath>`
+Run any file independently by: `python3 <filepath>`
+
+- `./2-rag/basic_metadata_part1.py` is an example that creates a vector database from .txt books and persists it locally.
+- `./2-rag/basic_metadata_part2.py` uses the persisted database created in the part 1 and creates a retriever to get relevant documents.
+- `./2-rag/conversational_rag.py` RAG with conversational capabilities using the database persisted in the `basic_metadata_part1`
